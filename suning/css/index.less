@@ -1,0 +1,92 @@
+@import "common";
+a {
+    text-decoration: none;
+}
+body {
+    min-width: 320px;
+    margin:0 auto;
+    width: 15rem;
+    line-height: 1.5;
+    font-family: Arial, Helvetica;
+    background: #f2f2f2;
+}
+.search-content {
+    width: 15rem;
+    height: 88rem / 50;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform:translate(-50%);
+    background-color: #ffc001;
+    display: flex;
+}
+.classify {
+    height: 70rem / 50;
+    width: 44rem /50;
+    margin: 11rem / 50 25rem / 50 7rem / 50 24rem / 50;
+    background: url(../images/classify.png) no-repeat;
+    background-size: 44rem / 50;
+}
+.search {
+    flex: 1;
+    input {
+        height: 66rem / 50;
+        border-radius: 33rem / @baseFont;
+        width: 100%;
+        background: #fff2cc;
+        margin-top: 12rem / @baseFont;
+        border: 0;
+        outline: none;
+        font-size: 25rem / @baseFont;
+        padding-left: 55rem / @baseFont;
+        color: #757575;
+    }
+}   
+.login {
+    width: 75rem / 50;
+    height: 70rem / 50;
+    margin: 10rem / 50 ;
+    color: #fff;
+    font-size: 25rem / 50;
+    text-align: center;
+    line-height: 70rem / @baseFont;
+}
+//banner
+.banner {
+    width: 750rem / @baseFont;
+    height: 368rem / @baseFont;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+//ad
+.ad {
+    display: flex;
+    a {
+        flex: 1;
+        img {
+            width: 100%;
+        }
+    }
+}
+// nav模块
+nav {
+    width: 750rem / @baseFont;
+    a {
+        float: left;
+        width: 150rem / @baseFont;
+        height: 140rem / @baseFont;
+        text-align: center;
+        img {
+            display: block;
+            width: 82rem / @baseFont;
+            height: 82rem / @baseFont;
+            margin: 10rem / @baseFont auto 0;
+        }
+        span {
+            font-size: 25rem / @baseFont;
+            color: #333;
+        }
+    }
+}
